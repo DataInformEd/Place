@@ -1,0 +1,7 @@
+# Pinned to resolve Streamlit ↔ OR-Tools protobuf constraints on Python 3.13
+streamlit==1.40.2
+pandas==2.2.3
+numpy==2.1.3
+# OR-Tools with cp313 wheel and protobuf<6 compatibility
+ortools==9.13.4784
+protobuf>=5.26,<6
